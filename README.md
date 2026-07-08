@@ -2,28 +2,31 @@
 
 ## Overview
 
-This project demonstrates flood risk assessment using GIS spatial analysis techniques in ArcGIS Pro.
+This project demonstrates a GIS-based flood risk assessment for a study area in South Australia using ArcGIS Pro. Multiple spatial datasets were processed and combined to identify areas with varying levels of flood susceptibility.
 
 ## Objectives
 
 - Identify flood-prone areas
-- Combine multiple flood factors
-- Produce a flood susceptibility map
+- Analyse terrain and hydrological characteristics
+- Evaluate proximity to river networks
+- Produce a flood susceptibility map using weighted overlay analysis
 
 ## Data
 
-- DEM
+- Digital Elevation Model (DEM)
 - River Network
 - Land Cover
-- Local Government Areas
+- Local Government Area (LGA) Boundaries
 
-## GIS Analysis
+## GIS Analysis Workflow
 
-- Slope
-- Flow Accumulation
-- Euclidean Distance
-- Reclassification
-- Weighted Overlay
+1. DEM Processing
+2. Slope Analysis
+3. Flow Accumulation
+4. Euclidean Distance to Rivers
+5. Raster Reclassification
+6. Weighted Overlay Analysis
+7. Final Flood Risk Mapping
 
 ## Software
 
@@ -34,14 +37,32 @@ This project demonstrates flood risk assessment using GIS spatial analysis techn
 
 - Raster Analysis
 - Spatial Analysis
-- GIS Modelling
-- Data Processing
-- Cartography
+- Hydrological Analysis
+- Raster Reclassification
+- Weighted Overlay
+- Cartographic Map Design
+- GIS Data Processing
+
+## Project Outputs
+
+- Flood Risk Map
+- Slope Map
+- Flow Accumulation Map
+- River Distance Map
+- Project Report (PDF)
 
 ## Screenshots
 
-(Add images here)
+(Add project screenshots here.)
+
+## Full ArcGIS Project
+
+The complete ArcGIS Pro project, geodatabase, and supporting datasets are available on Google Drive.
+
+**Google Drive**
+
+https://drive.google.com/drive/folders/1FbstVArxbLQcJm2RRrymR68L9pjWYSUg?usp=drive_link
 
 ## Author
 
-Foad Torfi
+**Fuad Torfi**
